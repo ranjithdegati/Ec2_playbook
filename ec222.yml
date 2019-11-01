@@ -1,6 +1,6 @@
 ---
 - name: Create a new Demo EC2 instance
-  hosts: first
+  hosts: ec2
   gather_facts: False
 
   vars:
